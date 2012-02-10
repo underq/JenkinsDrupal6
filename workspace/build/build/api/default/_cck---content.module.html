@@ -1,0 +1,2441 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs for page content.module</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="file-name">/cck/content.module</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+											<a href="#sec-constants">Constants</a>
+			|									<a href="#sec-functions">Functions</a>
+			</div>
+	<div class="info-box-body">	
+		<!-- ========== Info from phpDoc block ========= -->
+		
+			</div>
+</div>
+		
+
+	
+	<a name="sec-constants"></a>	
+	<div class="info-box">
+		<div class="info-box-title">Constants</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+									<span class="disabled">Constants</span>
+			|										<a href="#sec-functions">Functions</a>
+					</div>
+		<div class="info-box-body">	
+			<a name="defineCONTENT_CALLBACK_CUSTOM"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">CONTENT_CALLBACK_CUSTOM</span> = 0x0004
+			(line <span class="line-number">13</span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineCONTENT_CALLBACK_DEFAULT"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">CONTENT_CALLBACK_DEFAULT</span> = 0x0002
+			(line <span class="line-number">12</span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineCONTENT_CALLBACK_NONE"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">CONTENT_CALLBACK_NONE</span> = 0x0001
+			(line <span class="line-number">11</span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineCONTENT_DB_STORAGE_PER_CONTENT_TYPE"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">CONTENT_DB_STORAGE_PER_CONTENT_TYPE</span> = 1
+			(line <span class="line-number">9</span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineCONTENT_DB_STORAGE_PER_FIELD"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">CONTENT_DB_STORAGE_PER_FIELD</span> = 0
+			(line <span class="line-number">8</span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineCONTENT_HANDLE_CORE"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">CONTENT_HANDLE_CORE</span> = 0x0001
+			(line <span class="line-number">15</span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineCONTENT_HANDLE_MODULE"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">CONTENT_HANDLE_MODULE</span> = 0x0002
+			(line <span class="line-number">16</span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+		</div>
+	</div>
+	
+	
+	<a name="sec-functions"></a>	
+	<div class="info-box">
+		<div class="info-box-title">Functions</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+													<a href="#sec-constants">Constants</a>
+				|									<span class="disabled">Functions</span>
+		</div>
+		<div class="info-box-body">	
+			<a name="functionbook_content_build_modes" id="functionbook_content_build_modes"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">book_content_build_modes</span> (line <span class="line-number">1959</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			book_content_build_modes
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functioncontent_access" id="functioncontent_access"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_access</span> (line <span class="line-number">2249</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Determine whether the user has access to a given field.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> if the operation is allowed;    FALSE if the operation is denied.</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">TRUE</span>
+		<span class="method-name">
+			content_access
+		</span>
+					(<span class="var-type">$op</span>&nbsp;<span class="var-name">$op</span>, <span class="var-type">$field</span>&nbsp;<span class="var-name">$field</span>, [<span class="var-type">$account</span>&nbsp;<span class="var-name">$account</span> = <span class="var-default">NULL</span>], [<span class="var-type">$node</span>&nbsp;<span class="var-name">$node</span> = <span class="var-default">NULL</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$op</span>
+				<span class="var-name">$op</span><span class="var-description">: The operation to be performed. Possible values: <ul><li>&quot;edit&quot;</li><li>&quot;view&quot;</li></ul></span>			</li>
+					<li>
+				<span class="var-type">$field</span>
+				<span class="var-name">$field</span><span class="var-description">: The field on which the operation is to be performed.</span>			</li>
+					<li>
+				<span class="var-type">$account</span>
+				<span class="var-name">$account</span><span class="var-description">: (optional) The account to check, if not given use currently logged in user.</span>			</li>
+					<li>
+				<span class="var-type">$node</span>
+				<span class="var-name">$node</span><span class="var-description">: (optional) The node on which the operation is to be performed.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_add_more_submit_proxy" id="functioncontent_add_more_submit_proxy"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_add_more_submit_proxy</span> (line <span class="line-number">474</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Proxy function to call content_add_more_submit(), because it might not be  included yet when the form is processed and invokes the callback.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_add_more_submit_proxy
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$form</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$form_state</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$form</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$form_state</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_allowed_values" id="functioncontent_allowed_values"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_allowed_values</span> (line <span class="line-number">1682</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Create an array of the allowed values for this field.</p>
+<p class="description"><p>Used by number and text fields, expects to find either   PHP code that will return the correct value, or a string   with keys and labels separated with '|' and with each   new value on its own line.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_allowed_values
+		</span>
+					(<span class="var-type">$field</span>&nbsp;<span class="var-name">$field</span>, [<span class="var-type">$flatten</span>&nbsp;<span class="var-name">$flatten</span> = <span class="var-default">TRUE</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$field</span>
+				<span class="var-name">$field</span><span class="var-description">: The field whose allowed values are requested.</span>			</li>
+					<li>
+				<span class="var-type">$flatten</span>
+				<span class="var-name">$flatten</span><span class="var-description">: Optional. Use TRUE to return a flattened array (default).    FALSE can be used to support optgroups for select widgets    when allowed values list is generated using PHP code.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_allowed_values_filter_html" id="functioncontent_allowed_values_filter_html"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_allowed_values_filter_html</span> (line <span class="line-number">1732</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Filter out HTML from allowed values array while leaving entities unencoded.</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../default/content_handler_filter_many_to_one.html#methodallowed_values">content_handler_filter_many_to_one::allowed_values()</a></li>
+				<li><span class="field">see:</span> <a href="../default/_cck---modules---optionwidgets---optionwidgets.module.html#functionoptionwidgets_select_process">optionwidgets_select_process()</a></li>
+				<li><span class="field">see:</span> <a href="../default/_cck---content.module.html#functioncontent_allowed_values">content_allowed_values()</a></li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_allowed_values_filter_html
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$options</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$options</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_alter" id="functioncontent_alter"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_alter</span> (line <span class="line-number">394</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_nodeapi 'alter' op.</p>
+<p class="description"><p>Add back the formatted values in the 'view' element for all fields,  so that node templates can use it.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_alter
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$node</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$teaser</span> = <span class="var-default">FALSE</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$page</span> = <span class="var-default">FALSE</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$node</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$teaser</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$page</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_alter_extra_weights" id="functioncontent_alter_extra_weights"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_alter_extra_weights</span> (line <span class="line-number">454</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Pre-render callback to adjust weights of non-CCK fields.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_alter_extra_weights
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$elements</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$elements</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_array_flatten" id="functioncontent_array_flatten"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_array_flatten</span> (line <span class="line-number">1652</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Helper function to flatten an array of allowed values.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> flattened array.</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">A</span>
+		<span class="method-name">
+			content_array_flatten
+		</span>
+					(<span class="var-type">$array</span>&nbsp;<span class="var-name">$array</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$array</span>
+				<span class="var-name">$array</span><span class="var-description">: A single or multidimensional array.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_associate_fields" id="functioncontent_associate_fields"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_associate_fields</span> (line <span class="line-number">586</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Allows a module to update the database for fields and columns it controls.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_associate_fields
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$module</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$module</span><span class="var-description">: The name of the module to update on.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_build_modes" id="functioncontent_build_modes"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_build_modes</span> (line <span class="line-number">1853</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Registry of available node build modes.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on the value of the $selector parameter: <ul><li>NULL: a flat list of all available build modes.</li></ul>   The other two options are mainly used internally by CCK's UI: <ul><li>'_tabs': the list of tabs to be shown on the 'Display fields' screens.</li><li>a string tab id: the build modes in this tab.</li></ul></li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Depending</span>
+		<span class="method-name">
+			content_build_modes
+		</span>
+					([<span class="var-type">$selector</span>&nbsp;<span class="var-name">$selector</span> = <span class="var-default">NULL</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$selector</span>
+				<span class="var-name">$selector</span><span class="var-description">: Determines what information should be returned.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_cache_tablename" id="functioncontent_cache_tablename"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_cache_tablename</span> (line <span class="line-number">2042</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Generate table name for the content cache table.</p>
+<p class="description"><p>Needed because the table name changes depending on version. Because of  a new database column, the content_cache table will be unusable until  update 6000 runs, so the cache table will be used instead.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_cache_tablename
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functioncontent_callback" id="functioncontent_callback"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_callback</span> (line <span class="line-number">2154</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Helper function for determining the behavior of a field or a widget   with respect to a given operation. (currently used for field 'view',   and widget 'default values' and 'multiple values')</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> - do nothing for this operation     CONTENT_CALLBACK_CUSTOM  - use the module's callback function.     CONTENT_CALLBACK_DEFAULT - use content module default behavior</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">CONTENT_CALLBACK_NONE</span>
+		<span class="method-name">
+			content_callback
+		</span>
+					(<span class="var-type">$entity</span>&nbsp;<span class="var-name">$entity</span>, <span class="var-type">$op</span>&nbsp;<span class="var-name">$op</span>, <span class="var-type">$field</span>&nbsp;<span class="var-name">$field</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$entity</span>
+				<span class="var-name">$entity</span><span class="var-description">: 'field' or 'widget'</span>			</li>
+					<li>
+				<span class="var-type">$op</span>
+				<span class="var-name">$op</span><span class="var-description">: the name of the operation ('view', 'default value'...)</span>			</li>
+					<li>
+				<span class="var-type">$field</span>
+				<span class="var-name">$field</span><span class="var-description">: The field array, including widget info.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_clear_type_cache" id="functioncontent_clear_type_cache"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_clear_type_cache</span> (line <span class="line-number">1548</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Clear the cache of content_types; called in several places when content  information is changed.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_clear_type_cache
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$rebuild_schema</span> = <span class="var-default">FALSE</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$rebuild_schema</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_content_extra_fields" id="functioncontent_content_extra_fields"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_content_extra_fields</span> (line <span class="line-number">2452</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_content_extra_fields.</p>
+<p class="description"><p>Informations for non-CCK 'node fields' defined in core.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_content_extra_fields
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$type_name</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$type_name</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_content_fieldapi" id="functioncontent_content_fieldapi"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_content_fieldapi</span> (line <span class="line-number">2440</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Debugging using hook_content_fieldapi.</p>
+	<ul class="tags">
+				<li><span class="field">TODO:</span> remove later</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_content_fieldapi
+		</span>
+					(<span class="var-type">$op</span>&nbsp;<span class="var-name">$op</span>, <span class="var-type">$field</span>&nbsp;<span class="var-name">$field</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$op</span>
+				<span class="var-name">$op</span>			</li>
+					<li>
+				<span class="var-type">$field</span>
+				<span class="var-name">$field</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_ctools_plugin_directory" id="functioncontent_ctools_plugin_directory"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_ctools_plugin_directory</span> (line <span class="line-number">225</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_ctools_plugin_directory().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_ctools_plugin_directory
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$module</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$plugin</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$module</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$plugin</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_database_info" id="functioncontent_database_info"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_database_info</span> (line <span class="line-number">1579</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Retrieve the database storage location(s) for a field.</p>
+<p class="description"><p>TODO: add a word about why it's not included in the global _content_type_info array.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> array with the keys:      &quot;table&quot;: The name of the database table where the field data is stored.      &quot;columns&quot;: An array of columns stored for this field. Each is a collection        of information returned from hook_field_settings('database columns'),        with the addition of a &quot;column&quot; attribute which holds the name of the        database column that stores the data.</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">An</span>
+		<span class="method-name">
+			content_database_info
+		</span>
+					(<span class="var-type">$field</span>&nbsp;<span class="var-name">$field</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$field</span>
+				<span class="var-name">$field</span><span class="var-description">: The field whose database information is requested.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_db_index_exists" id="functioncontent_db_index_exists"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_db_index_exists</span> (line <span class="line-number">2114</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Checks if an index exists.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> if the table exists. Otherwise FALSE.</li>
+				<li><span class="field">link:</span> <a href="http://dev.mysql.com/doc/refman/5.0/en/extended-show.html">http://dev.mysql.com/doc/refman/5.0/en/extended-show.html</a></li>
+				<li><span class="field">link:</span> <a href="http://drupal.org/node/360854">http://drupal.org/node/360854</a></li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">TRUE</span>
+		<span class="method-name">
+			content_db_index_exists
+		</span>
+					(<span class="var-type">$table</span>&nbsp;<span class="var-name">$table</span>, <span class="var-type">$name</span>&nbsp;<span class="var-name">$name</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$table</span>
+				<span class="var-name">$table</span><span class="var-description">: Name of the table.</span>			</li>
+					<li>
+				<span class="var-type">$name</span>
+				<span class="var-name">$name</span><span class="var-description">: Name of the index.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_default_value" id="functioncontent_default_value"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_default_value</span> (line <span class="line-number">2213</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Helper function to return the correct default value for a field.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> default value for that field.</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">The</span>
+		<span class="method-name">
+			content_default_value
+		</span>
+					(<span class="var-type">$node</span>&nbsp;<span class="var-name">&$form</span>, <span class="var-type">$field</span>&nbsp;<span class="var-name">&$form_state</span>, <span class="var-type">$items</span>&nbsp;<span class="var-name">$field</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$delta</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$node</span>
+				<span class="var-name">&$form</span><span class="var-description">: The node.</span>			</li>
+					<li>
+				<span class="var-type">$field</span>
+				<span class="var-name">&$form_state</span><span class="var-description">: The field array.</span>			</li>
+					<li>
+				<span class="var-type">$items</span>
+				<span class="var-name">$field</span><span class="var-description">: The value of the field in the node.</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$delta</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_delete" id="functioncontent_delete"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_delete</span> (line <span class="line-number">308</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_nodeapi 'delete' op.</p>
+<p class="description"><p>Delete node type fields.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_delete
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$node</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$node</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_delete_revision" id="functioncontent_delete_revision"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_delete_revision</span> (line <span class="line-number">319</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_nodeapi 'delete_revision' op.</p>
+<p class="description"><p>Delete node type fields for a revision.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_delete_revision
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$node</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$node</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_elements" id="functioncontent_elements"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_elements</span> (line <span class="line-number">165</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Hook elements().</p>
+<p class="description"><p>Used to add multiple value processing, validation, and themes.</p><p>FAPI callbacks can be declared here, and the element will be  passed to those callbacks.</p><p>Drupal will automatically theme the element using a theme with  the same name as the hook_elements key.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_elements
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functioncontent_extra_field_weight" id="functioncontent_extra_field_weight"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_extra_field_weight</span> (line <span class="line-number">2581</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Retrieve the user-defined weight for non-CCK node 'fields'.</p>
+<p class="description"><p>CCK's 'Manage fields' page lets users reorder node fields, including non-CCK  items (body, taxonomy, other hook_nodeapi-added elements by contrib modules...).  Contrib modules that want to have their 'fields' supported need to expose  them with hook_content_extra_fields, and use this function to retrieve the  user-defined weight.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> weight for the 'field', respecting the user settings stored    by content.module.</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">The</span>
+		<span class="method-name">
+			content_extra_field_weight
+		</span>
+					(<span class="var-type">$type_name</span>&nbsp;<span class="var-name">$type_name</span>, <span class="var-type">$pseudo_field_name</span>&nbsp;<span class="var-name">$pseudo_field_name</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$type_name</span>
+				<span class="var-name">$type_name</span><span class="var-description">: The content type name.</span>			</li>
+					<li>
+				<span class="var-type">$pseudo_field_name</span>
+				<span class="var-name">$pseudo_field_name</span><span class="var-description">: The name of the 'field'.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_field" id="functioncontent_field"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_field</span> (line <span class="line-number">686</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_field(). Handles common field housekeeping.</p>
+<p class="description"><p>This implementation is special, as content.module does not define any field  types. Instead, this function gets called after the type-specific hook, and  takes care of default stuff common to all field types.</p><p>Db-storage ops ('load', 'insert', 'update', 'delete', 'delete revisions')  are not executed field by field, and are thus handled separately in  content_storage.</p><p>The 'view' operation constructs the $node in a way that you can use  drupal_render() to display the formatted output for an individual field.  i.e. print drupal_render($node-&gt;countent['field_foo']);</p><p>The code now supports both single value formatters, which theme an  individual item value as has been done in previous version of CCK,  and multiple value formatters, which theme all values for the field  in a single theme. The multiple value formatters could be used, for  instance, to plot field values on a single map or display them  in a graph. Single value formatters are the default, multiple value  formatters can be designated as such in formatter_info().</p><p>The node array will look like:    $node-&gt;content['field_foo']['wrapper'] = array(      '#type' =&gt; 'content_field',      '#title' =&gt; 'label'      '#field_name' =&gt; 'field_name',      '#node' =&gt; $node,      // Value of the $teaser param of hook_nodeapi('view').      '#teaser' =&gt; $teaser,      // Value of the $page param of hook_nodeapi('view').      '#page' =&gt; $page,      // The curent rendering context ('teaser', 'full', NODE_BUILD_SEARCH_INDEX...).      '#context' =&gt; $context,      'items' =&gt; <ol><li>=&gt; array(
+         '#item' =&gt; $items[0],
+         // Only for 'single-value' formatters
+         '#theme' =&gt; $theme,
+         '#field_name' =&gt; 'field_name',
+         '#type_name' =&gt; $node-&gt;type,
+         '#formatter' =&gt; $formatter_name,
+         '#node' =&gt; $node,
+         '#delta' =&gt; 0,</li></ol>       ), <ol><li>=&gt; array(
+         '#item' =&gt; $items[1],
+         // Only for 'single-value' formatters
+         '#theme' =&gt; $theme,
+         '#field_name' =&gt; 'field_name',
+         '#type_name' =&gt; $node-&gt;type,
+         '#formatter' =&gt; $formatter_name,
+         '#node' =&gt; $node,
+         '#delta' =&gt; 1,</li></ol>       ),        // Only for 'multiple-value' formatters        '#theme' =&gt; $theme,        '#field_name' =&gt; 'field_name',        '#type_name' =&gt; $node-&gt;type,        '#formatter' =&gt; $formatter_name,      ),    );</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_field
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$op</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$node</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$field</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$items</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$teaser</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$page</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$op</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$node</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$field</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$items</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$teaser</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$page</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_fields" id="functioncontent_fields"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_fields</span> (line <span class="line-number">1339</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Return a list of all fields.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_fields
+		</span>
+					([<span class="var-type">$field_name</span>&nbsp;<span class="var-name">$field_name</span> = <span class="var-default">NULL</span>], [<span class="var-type">$content_type_name</span>&nbsp;<span class="var-name">$content_type_name</span> = <span class="var-default">NULL</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$field_name</span>
+				<span class="var-name">$field_name</span><span class="var-description">: If not empty, return information on just this field.</span>			</li>
+					<li>
+				<span class="var-type">$content_type_name</span>
+				<span class="var-name">$content_type_name</span><span class="var-description">: <p>If not empty, return information of the field within the context of this content    type.</p><p>Be sure to check empty() instead of isset() on field_name and  content_type_name to avoid bad results when the value is set  but empty, as sometimes happens in the formatter.</p></span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_field_tablename" id="functioncontent_field_tablename"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_field_tablename</span> (line <span class="line-number">2016</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Generate table name for the content field table.</p>
+<p class="description"><p>Needed because the table name changes depending on version.  Using 'content_node_field' instead of 'content_field'  to avoid conflicts with field tables that will be prefixed  with 'content_field'.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_field_tablename
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$version</span> = <span class="var-default">NULL</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$version</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_field_wrapper_post_render" id="functioncontent_field_wrapper_post_render"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_field_wrapper_post_render</span> (line <span class="line-number">2271</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Hide specified fields from the $content variable in node templates.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_field_wrapper_post_render
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$content</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$element</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$content</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$element</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_filter_xss" id="functioncontent_filter_xss"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_filter_xss</span> (line <span class="line-number">1750</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Like filter_xss_admin(), but with a shorter list of allowed tags.</p>
+<p class="description"><p>Used for items entered by administrators, like field descriptions,  allowed values, where some (mainly inline) mark-up may be desired  (so check_plain() is not acceptable).</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_filter_xss
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$string</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$string</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_flush_caches" id="functioncontent_flush_caches"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_flush_caches</span> (line <span class="line-number">39</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_flush_caches.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_flush_caches
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functioncontent_format" id="functioncontent_format"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_format</span> (line <span class="line-number">1792</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Format a field item for display.</p>
+<p class="description"><p>Used to display a field's values outside the context of the $node, as  when fields are displayed in Views, or to display a field in a template  using a different formatter than the one set up on the Display Fields tab  for the node's context.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> string containing the contents of the field item(s) sanitized for display.    It will have been passed through the necessary check_plain() or check_markup()    functions as necessary.</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">A</span>
+		<span class="method-name">
+			content_format
+		</span>
+					(<span class="var-type">$field</span>&nbsp;<span class="var-name">$field</span>, <span class="var-type">$item</span>&nbsp;<span class="var-name">$item</span>, [<span class="var-type">$formatter_name</span>&nbsp;<span class="var-name">$formatter_name</span> = <span class="var-default">&#039;default&#039;</span>], [<span class="var-type">$node</span>&nbsp;<span class="var-name">$node</span> = <span class="var-default">NULL</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$field</span>
+				<span class="var-name">$field</span><span class="var-description">: Either a field array or the name of the field.</span>			</li>
+					<li>
+				<span class="var-type">$item</span>
+				<span class="var-name">$item</span><span class="var-description">: The field item(s) to be formatted (such as $node-&gt;field_foo[0],    or $node-&gt;field_foo if the formatter handles multiple values itself)</span>			</li>
+					<li>
+				<span class="var-type">$formatter_name</span>
+				<span class="var-name">$formatter_name</span><span class="var-description">: The name of the formatter to use.</span>			</li>
+					<li>
+				<span class="var-type">$node</span>
+				<span class="var-name">$node</span><span class="var-description">: Optionally, the containing node object for context purposes and    field-instance options.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_form_alter" id="functioncontent_form_alter"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_form_alter</span> (line <span class="line-number">438</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_form_alter().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_form_alter
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$form</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$form_state</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$form_id</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$form</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$form_state</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$form_id</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_handle" id="functioncontent_handle"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_handle</span> (line <span class="line-number">2184</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Helper function for determining the handling of a field, widget or   formatter with respect to a given operation.</p>
+<p class="description"><p>Currently used for widgets and formatters 'multiple values'.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> - the content module handles this operation.     CONTENT_HANDLE_MODULE  - the implementing module handles this operation.</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">CONTENT_HANDLE_CORE</span>
+		<span class="method-name">
+			content_handle
+		</span>
+					(<span class="var-type">$entity</span>&nbsp;<span class="var-name">$entity</span>, <span class="var-type">$op</span>&nbsp;<span class="var-name">$op</span>, <span class="var-type">$object</span>&nbsp;<span class="var-name">$object</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$entity</span>
+				<span class="var-name">$entity</span><span class="var-description">: 'field', 'widget' or 'formatter'</span>			</li>
+					<li>
+				<span class="var-type">$op</span>
+				<span class="var-name">$op</span><span class="var-description">: the name of the operation ('default values'...)</span>			</li>
+					<li>
+				<span class="var-type">$object</span>
+				<span class="var-name">$object</span><span class="var-description">: - if $entity is 'field' or 'widget': the field array,       including widget info. <ul><li>if $entity is 'formater': the formatter array.</li></ul></span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_help" id="functioncontent_help"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_help</span> (line <span class="line-number">18</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_help
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$path</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$arg</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$path</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$arg</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_inactive_fields" id="functioncontent_inactive_fields"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_inactive_fields</span> (line <span class="line-number">2661</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Helper function to identify inactive fields.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_inactive_fields
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$type_name</span> = <span class="var-default">NULL</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$type_name</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_inactive_instances" id="functioncontent_inactive_instances"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_inactive_instances</span> (line <span class="line-number">2691</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Helper function to identify inactive instances.</p>
+<p class="description"><p>This will be the same results as content_inactive_fields(),  EXCEPT that his function will return inactive instances even  if the fields have other (shared) instances that are still active.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_inactive_instances
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$type_name</span> = <span class="var-default">NULL</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$type_name</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_init" id="functioncontent_init"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_init</span> (line <span class="line-number">46</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_init().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_init
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functioncontent_insert" id="functioncontent_insert"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_insert</span> (line <span class="line-number">287</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_nodeapi 'insert' op.</p>
+<p class="description"><p>Insert node type fields.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_insert
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$node</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$node</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_instance_tablename" id="functioncontent_instance_tablename"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_instance_tablename</span> (line <span class="line-number">2028</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Generate table name for the content field instance table.</p>
+<p class="description"><p>Needed because the table name changes depending on version.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_instance_tablename
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$version</span> = <span class="var-default">NULL</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$version</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_load" id="functioncontent_load"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_load</span> (line <span class="line-number">239</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Load data for a node type's fields.</p>
+<p class="description"><p>Implementation of hook_nodeapi 'load' op.</p><p>When loading one of the content.module nodes, we need to let each field handle  its own loading. This can make for a number of queries in some cases, so we  cache the loaded object structure and invalidate it during the update process.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_load
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$node</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$node</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_max_delta" id="functioncontent_max_delta"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_max_delta</span> (line <span class="line-number">2619</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Find max delta value actually in use for a field.</p>
+<p class="description"><p>Helper function to do things like tell when we should prevent a  change in multiple value settings that would result in data loss,  or know if content actually exists for a field.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> <p>if field is not in use, or the maximum delta value in use.</p><p>TODO  Go back to the field settings validation and use this function  to prevent (or confirm) changes in multiple values that  would destroy data.</p><p>Fields with only NULL data will show up as being in use.  Do we want to eliminate them from the results?</p></li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">NULL</span>
+		<span class="method-name">
+			content_max_delta
+		</span>
+					(<span class="var-type">$field_name</span>&nbsp;<span class="var-name">$field_name</span>, [<span class="var-type">$type_name</span>&nbsp;<span class="var-name">$type_name</span> = <span class="var-default">NULL</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$field_name</span>
+				<span class="var-name">$field_name</span><span class="var-description">: The field name to examine.</span>			</li>
+					<li>
+				<span class="var-type">$type_name</span>
+				<span class="var-name">$type_name</span><span class="var-description">: If provided, search only for existing data in that type,    otherwise search for all instances of field data in all types.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_menu" id="functioncontent_menu"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_menu</span> (line <span class="line-number">76</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_menu().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_menu
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functioncontent_menu_alter" id="functioncontent_menu_alter"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_menu_alter</span> (line <span class="line-number">66</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_menu_alter().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_menu_alter
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$items</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$items</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_nodeapi" id="functioncontent_nodeapi"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_nodeapi</span> (line <span class="line-number">414</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_nodeapi().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_nodeapi
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$node</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$op</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$a3</span> = <span class="var-default">NULL</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$a4</span> = <span class="var-default">NULL</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$node</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$op</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$a3</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$a4</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_node_type" id="functioncontent_node_type"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_node_type</span> (line <span class="line-number">1527</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_node_type()</p>
+<p class="description"><p>React to change in node types</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_node_type
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$op</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$info</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$op</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$info</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_notify" id="functioncontent_notify"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_notify</span> (line <span class="line-number">554</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Modules notify Content module when uninstalled, disabled, etc.</p>
+	<ul class="tags">
+				<li><span class="field">TODO:</span> figure out exactly what needs to be done by content module when    field modules are installed, uninstalled, enabled or disabled.</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_notify
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$op</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$module</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$op</span><span class="var-description">: the module operation: uninstall, install, enable, disable</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$module</span><span class="var-description">: the name of the affected module.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_perm" id="functioncontent_perm"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_perm</span> (line <span class="line-number">59</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_perm().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_perm
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functioncontent_prepare_translation" id="functioncontent_prepare_translation"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_prepare_translation</span> (line <span class="line-number">403</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_nodeapi 'prepare translation' op.</p>
+<p class="description"><p>Generate field render arrays.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_prepare_translation
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$node</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$node</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_preprocess_node" id="functioncontent_preprocess_node"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_preprocess_node</span> (line <span class="line-number">2427</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Theme preprocess function for node.</p>
+<p class="description"><p><ul><li>Adds $FIELD_NAME_rendered variables
+   containing the themed output for the whole field.</li><li>Adds the formatted values in the 'view' key of the items.</li></ul></p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_preprocess_node
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$vars</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$vars</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_presave" id="functioncontent_presave"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_presave</span> (line <span class="line-number">277</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_nodeapi 'presave' op.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_presave
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$node</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$node</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_set_empty" id="functioncontent_set_empty"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_set_empty</span> (line <span class="line-number">901</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Helper function to filter out empty values.</p>
+<p class="description"><p>On order to keep marker rows in the database, the function ensures  that the right number of 'all columns NULL' values is kept.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> returns filtered and adjusted item array</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			content_set_empty
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$field</span>, <span class="var-type">array</span>&nbsp;<span class="var-name">$items</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$field</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$items</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_storage" id="functioncontent_storage"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_storage</span> (line <span class="line-number">966</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Handle storage ops for _content_field_invoke_default().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_storage
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$op</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$node</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$op</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$node</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_storage_type" id="functioncontent_storage_type"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_storage_type</span> (line <span class="line-number">1600</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Helper function for identifying the storage type for a field.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_storage_type
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$field</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$field</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_table_schema" id="functioncontent_table_schema"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_table_schema</span> (line <span class="line-number">2058</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">A basic schema used by all field and type tables.</p>
+<p class="description"><p>This will only add the columns relevant for the specified field.  Leave $field['columns'] empty to get only the base schema,  otherwise the function will return the whole thing.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_table_schema
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$field</span> = <span class="var-default">NULL</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$field</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_theme" id="functioncontent_theme"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_theme</span> (line <span class="line-number">175</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_theme().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_theme
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functioncontent_transpose_array_rows_cols" id="functioncontent_transpose_array_rows_cols"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_transpose_array_rows_cols</span> (line <span class="line-number">1627</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Manipulate a 2D array to reverse rows and columns.</p>
+<p class="description"><p>The default data storage for fields is delta first, column names second.  This is sometimes inconvenient for field modules, so this function can be  used to present the data in an alternate format.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> transposed array.</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">The</span>
+		<span class="method-name">
+			content_transpose_array_rows_cols
+		</span>
+					(<span class="var-type">$array</span>&nbsp;<span class="var-name">$array</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$array</span>
+				<span class="var-name">$array</span><span class="var-description">: The array to be transposed. It must be at least two-dimensional, and    the subarrays must all have the same keys or behavior is undefined.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_types" id="functioncontent_types"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_types</span> (line <span class="line-number">1310</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Return a list of all content types.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_types
+		</span>
+					([<span class="var-type">$content_type_name</span>&nbsp;<span class="var-name">$type_name</span> = <span class="var-default">NULL</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$content_type_name</span>
+				<span class="var-name">$type_name</span><span class="var-description">: <p>If set, return information on just this type.</p><p>Do some type checking and set up empty arrays for missing  info to avoid foreach errors elsewhere in the code.</p></span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_update" id="functioncontent_update"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_update</span> (line <span class="line-number">297</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_nodeapi 'update' op.</p>
+<p class="description"><p>Update node type fields.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_update
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$node</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$node</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_validate" id="functioncontent_validate"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_validate</span> (line <span class="line-number">268</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_nodeapi 'validate' op.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_validate
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$node</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$form</span> = <span class="var-default">NULL</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$node</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$form</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_view" id="functioncontent_view"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_view</span> (line <span class="line-number">330</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_nodeapi 'view' op.</p>
+<p class="description"><p>Generate field render arrays.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_view
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$node</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$teaser</span> = <span class="var-default">FALSE</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$page</span> = <span class="var-default">FALSE</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$node</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$teaser</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$page</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_views_api" id="functioncontent_views_api"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_views_api</span> (line <span class="line-number">215</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_views_api().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_views_api
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functioncontent_view_field" id="functioncontent_view_field"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_view_field</span> (line <span class="line-number">363</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Render a single field, fully themed with label and multiple values.</p>
+<p class="description"><p>To be used by third-party code (Views, Panels...) that needs to output  an isolated field. Do *not* use inside node templates, use the  $FIELD_NAME_rendered variables instead.</p><p>By default, the field is displayed using the settings defined for the  'full node' or 'teaser' contexts (depending on the value of the $teaser param).  Set $node-&gt;build_mode to a different value to use a different context.</p><p>Different settings can be specified by adjusting $field['display_settings'].</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> themed output for the field.</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">The</span>
+		<span class="method-name">
+			content_view_field
+		</span>
+					(<span class="var-type">$field</span>&nbsp;<span class="var-name">$field</span>, <span class="var-type">$node</span>&nbsp;<span class="var-name">$node</span>, [<span class="var-type">$teaser</span>&nbsp;<span class="var-name">$teaser</span> = <span class="var-default">FALSE</span>], [<span class="var-type">$page</span>&nbsp;<span class="var-name">$page</span> = <span class="var-default">FALSE</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$field</span>
+				<span class="var-name">$field</span><span class="var-description">: The field definition.</span>			</li>
+					<li>
+				<span class="var-type">$node</span>
+				<span class="var-name">$node</span><span class="var-description">: The node containing the field to display. Can be a 'pseudo-node', containing    at least 'type', 'nid', 'vid', and the field data.</span>			</li>
+					<li>
+				<span class="var-type">$teaser</span>
+				<span class="var-name">$teaser</span>			</li>
+					<li>
+				<span class="var-type">$page</span>
+				<span class="var-name">$page</span><span class="var-description">: Similar to hook_nodeapi('view')</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_write_record" id="functioncontent_write_record"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_write_record</span> (line <span class="line-number">1127</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Save a record to the database based upon the schema.</p>
+<p class="description"><p>Directly copied from core's drupal_write_record, which can't update a  column to NULL. See http://drupal.org/node/227677 and  http://drupal.org/node/226264 for more details about that problem.</p><p>TODO - get rid of this function and change references back to  drupal_write_record() if the patch gets into core. Will need a method  of protecting people on older versions, though.</p><p>Default values are filled in for missing items, and 'serial' (auto increment)  types are filled in with IDs.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> to write a record will return FALSE. Otherwise SAVED_NEW or    SAVED_UPDATED is returned depending on the operation performed. The    $object parameter contains values for any serial fields defined by    the $table. For example, $object-&gt;nid will be populated after inserting    a new node.</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Failure</span>
+		<span class="method-name">
+			content_write_record
+		</span>
+					(<span class="var-type">$table</span>&nbsp;<span class="var-name">$table</span>, <span class="var-type">$object</span>&nbsp;<span class="var-name">&$object</span>, [<span class="var-type">$update</span>&nbsp;<span class="var-name">$update</span> = <span class="var-default">array()</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$table</span>
+				<span class="var-name">$table</span><span class="var-description">: The name of the table; this must exist in schema API.</span>			</li>
+					<li>
+				<span class="var-type">$object</span>
+				<span class="var-name">&$object</span><span class="var-description">: The object to write. This is a reference, as defaults according to    the schema may be filled in on the object, as well as ID on the serial    type(s). Both array an object types may be passed.</span>			</li>
+					<li>
+				<span class="var-type">$update</span>
+				<span class="var-name">$update</span><span class="var-description">: If this is an update, specify the primary keys' field names. It is the    caller's responsibility to know if a record for this object already    exists in the database. If there is only 1 key, you may pass a simple string.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionnode_content_build_modes" id="functionnode_content_build_modes"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">node_content_build_modes</span> (line <span class="line-number">1916</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementations of hook_content_build_modes  on behalf of core modules.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> <p>array describing the build modes used by the module.  They are grouped by secondary tabs on CCK's 'Display fields' screens.</p><p>Expected format:  array(    // The first level keys (tab1_url, tab2_url) will be used to generate    // the url of the tab: admin/content/node-type/[type_name]/display/[tab1_url]    // A module can add its render modes to a tab defined by another module.    // In this case, there's no need to provide a 'title' for this tab.    'tab1_url' =&gt; array(      'title' =&gt; t('The human-readable title of the tab'),      'build modes' =&gt; array(        // The keys of the 'context' array are the values used in $node-&gt;build_mode.        'mymodule_mode1' =&gt; array(          'title' =&gt; t('The human-readable name of the build mode'),         // The 'views style' property determines if the render mode should be         // available as an option in Views' 'node' row style (not implemented yet).         'views style' =&gt; TRUE,        ),        'mymodule_mode2' =&gt; array(          'title' =&gt; t('Mode 2'),          'views style' =&gt; TRUE,        ),      ),    ),    'tab2_url' =&gt; array(      // ...    ),  );</p></li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">An</span>
+		<span class="method-name">
+			node_content_build_modes
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functionsearch_content_build_modes" id="functionsearch_content_build_modes"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">search_content_build_modes</span> (line <span class="line-number">1942</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			search_content_build_modes
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functiontemplate_preprocess_content_field" id="functiontemplate_preprocess_content_field"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">template_preprocess_content_field</span> (line <span class="line-number">2360</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Theme preprocess function for field.tpl.php.</p>
+<p class="description"><p>The $variables array contains the following arguments: <ul><li>$node</li><li>$field</li><li>$items</li><li>$teaser</li><li>$page</li></ul></p></p>
+	<ul class="tags">
+				<li><span class="field">see:</span> field.tpl.php
+
+ TODO : this should live in theme/theme.inc, but then the preprocessor
+ doesn't get called when the theme overrides the template. Bug in theme layer ?</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			template_preprocess_content_field
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$variables</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$variables</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functiontheme_content_exclude" id="functiontheme_content_exclude"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">theme_content_exclude</span> (line <span class="line-number">2331</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">'Theme' function for a field's addition to $content.</p>
+<p class="description"><p>Adapts the all-inclusive $content variable in node templates to allow  some field content to be excluded. This is a theme function, so it can be  overridden in different themes to produce different results.</p><p>The html for individual fields and groups are available in the  $FIELD_NAME_rendered and $GROUP_NAME_rendered variables.</p><p>This allows more flexibility in node templates : you can use custom markup  around a few specific fields, and print the rest of the node with $content.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> or not content is to be added to $content in this context.    Uses the value of the 'Exclude' checkbox for this field    as set on the Manage fields screen.</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Whether</span>
+		<span class="method-name">
+			theme_content_exclude
+		</span>
+					(<span class="var-type">$content</span>&nbsp;<span class="var-name">$content</span>, <span class="var-type">$object</span>&nbsp;<span class="var-name">$object</span>, <span class="var-type">$context</span>&nbsp;<span class="var-name">$context</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$content</span>
+				<span class="var-name">$content</span><span class="var-description">: The themed content for this field or group.</span>			</li>
+					<li>
+				<span class="var-type">$object</span>
+				<span class="var-name">$object</span><span class="var-description">: The field or group array for this item.     $object['#type_name'] holds the content type.     $object['#field_name'] holds the field name (if a field).     $object['#group_name'] holds the group name (if a group).     $object['display_settings'] holds the display settings     for all contexts, in an array like:       $object['display_settings'] =&gt; array(         'full' =&gt; array(           'format' =&gt; 'default',           'exclude' =&gt; 0,          ),         'teaser' =&gt; array(           'format' =&gt; 'default',           'exclude' =&gt; 1,          ),       );</span>			</li>
+					<li>
+				<span class="var-type">$context</span>
+				<span class="var-name">$context</span><span class="var-description">: The context for which the node is being rendered.     Can be one of the following values : <ul><li>'teaser'</li><li>'full'</li><li>NODE_BUILD_SEARCH_INDEX</li><li>NODE_BUILD_SEARCH_RESULT</li><li>NODE_BUILD_RSS</li><li>NODE_BUILD_PRINT</li><li>... any other custom build mode exposed by 3rd party modules using
+      hook_content_build_modes().</li></ul></span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functiontheme_content_multiple_values" id="functiontheme_content_multiple_values"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">theme_content_multiple_values</span> (line <span class="line-number">484</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Theme an individual form element.</p>
+<p class="description"><p>Combine multiple values into a table with drag-n-drop reordering.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			theme_content_multiple_values
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$element</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$element</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="function_content_field_invoke" id="function_content_field_invoke"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">_content_field_invoke</span> (line <span class="line-number">1238</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Invoke a field hook.</p>
+<p class="description"><p>For each operation, both this function and _content_field_invoke_default() are  called so that the default database handling can occur.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_content_field_invoke
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$op</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$node</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$teaser</span> = <span class="var-default">NULL</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$page</span> = <span class="var-default">NULL</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$op</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$node</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$teaser</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$page</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="function_content_field_invoke_default" id="function_content_field_invoke_default"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">_content_field_invoke_default</span> (line <span class="line-number">1272</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Invoke content.module's version of a field hook.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_content_field_invoke_default
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$op</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$node</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$teaser</span> = <span class="var-default">NULL</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$page</span> = <span class="var-default">NULL</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$op</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$node</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$teaser</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$page</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="function_content_field_types" id="function_content_field_types"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">_content_field_types</span> (line <span class="line-number">1359</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Return a list of field types.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_content_field_types
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="function_content_filter_xss_allowed_tags" id="function_content_filter_xss_allowed_tags"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">_content_filter_xss_allowed_tags</span> (line <span class="line-number">1757</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">List of tags allowed by content_filter_xss().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_content_filter_xss_allowed_tags
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="function_content_filter_xss_display_allowed_tags" id="function_content_filter_xss_display_allowed_tags"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">_content_filter_xss_display_allowed_tags</span> (line <span class="line-number">1764</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Human-readable list of allowed tags, for display in help texts.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_content_filter_xss_display_allowed_tags
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="function_content_get_formatter" id="function_content_get_formatter"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">_content_get_formatter</span> (line <span class="line-number">1376</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Return the formatter description corresponding to a formatter name,  defaulting to 'default' if none is found.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_content_get_formatter
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$formatter_name</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$field_type</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$formatter_name</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$field_type</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="function_content_sort_items" id="function_content_sort_items"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">_content_sort_items</span> (line <span class="line-number">926</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Helper function to sort items in a field according to  user drag-n-drop reordering.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_content_sort_items
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$field</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$items</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$field</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$items</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="function_content_sort_items_helper" id="function_content_sort_items_helper"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">_content_sort_items_helper</span> (line <span class="line-number">942</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sort function for items order.</p>
+<p class="description"><p>(copied form element_sort(), which acts on #weight keys)</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_content_sort_items_helper
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$a</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$b</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$a</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$b</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="function_content_sort_items_value_helper" id="function_content_sort_items_value_helper"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">_content_sort_items_value_helper</span> (line <span class="line-number">954</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Same as above, using ['_weight']['#value']</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_content_sort_items_value_helper
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$a</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$b</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$a</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$b</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="function_content_tablename" id="function_content_tablename"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">_content_tablename</span> (line <span class="line-number">1983</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Generate a table name for a field or a content type.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> string containing the generated name for the database table</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">A</span>
+		<span class="method-name">
+			_content_tablename
+		</span>
+					(<span class="var-type">$name</span>&nbsp;<span class="var-name">$name</span>, <span class="var-type">$storage</span>&nbsp;<span class="var-name">$storage</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$version</span> = <span class="var-default">NULL</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$name</span>
+				<span class="var-name">$name</span><span class="var-description">: The name of the content type or content field</span>			</li>
+					<li>
+				<span class="var-type">$storage</span>
+				<span class="var-name">$storage</span><span class="var-description">: CONTENT_DB_STORAGE_PER_FIELD or CONTENT_DB_STORAGE_PER_CONTENT_TYPE</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$version</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="function_content_type_info" id="function_content_type_info"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">_content_type_info</span> (line <span class="line-number">1395</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Collate all information on content types, fields, and related structures.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_content_type_info
+		</span>
+					([<span class="var-type">$reset</span>&nbsp;<span class="var-name">$reset</span> = <span class="var-default">FALSE</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$reset</span>
+				<span class="var-name">$reset</span><span class="var-description">: If TRUE, clear the cache and fetch the information from the database again.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="function_content_widget_types" id="function_content_widget_types"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">_content_widget_types</span> (line <span class="line-number">1367</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Return a list of widget types.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_content_widget_types
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+		</div>
+	</div>
+	
+	<p class="notes" id="credit">
+		Documentation generated on Fri, 10 Feb 2012 11:17:51 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.4</a>
+	</p>
+	</div></body>
+</html>

@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs for page nodereference.module</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="file-name">/cck/modules/nodereference/nodereference.module</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-functions">Functions</a>
+			</div>
+	<div class="info-box-body">	
+		<!-- ========== Info from phpDoc block ========= -->
+		
+			</div>
+</div>
+		
+
+	
+	
+	
+	<a name="sec-functions"></a>	
+	<div class="info-box">
+		<div class="info-box-title">Functions</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<span class="disabled">Functions</span>
+		</div>
+		<div class="info-box-body">	
+			<a name="functionnodereference_allowed_values" id="functionnodereference_allowed_values"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">nodereference_allowed_values</span> (line <span class="line-number">761</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_allowed_values().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_allowed_values
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$field</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$field</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionnodereference_autocomplete" id="functionnodereference_autocomplete"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">nodereference_autocomplete</span> (line <span class="line-number">969</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Menu callback; Retrieve a pipe delimited string of autocomplete suggestions for existing users</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_autocomplete
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$field_name</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$string</span> = <span class="var-default">&#039;&#039;</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$field_name</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$string</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionnodereference_autocomplete_access" id="functionnodereference_autocomplete_access"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">nodereference_autocomplete_access</span> (line <span class="line-number">962</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Check access to the menu callback of the autocomplete widget.</p>
+<p class="description"><p>Check for both 'edit' and 'view' access in the unlikely event  a user has edit but not view access.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_autocomplete_access
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$field_name</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$field_name</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionnodereference_autocomplete_process" id="functionnodereference_autocomplete_process"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">nodereference_autocomplete_process</span> (line <span class="line-number">651</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Process an individual element.</p>
+<p class="description"><p>Build the form element. When creating a form using FAPI #process,  note that $element['#value'] is already set.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_autocomplete_process
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$element</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$edit</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$form_state</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$form</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$element</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$edit</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$form_state</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$form</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionnodereference_autocomplete_validate" id="functionnodereference_autocomplete_validate"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">nodereference_autocomplete_validate</span> (line <span class="line-number">723</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Validate an autocomplete element.</p>
+<p class="description"><p>Remove the wrapper layer and set the right element's value.  This will move the nested value at 'field-name-0-nid-nid'  back to its original location, 'field-name-0-nid'.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_autocomplete_validate
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$element</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$form_state</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$element</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$form_state</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionnodereference_autocomplete_value" id="functionnodereference_autocomplete_value"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">nodereference_autocomplete_value</span> (line <span class="line-number">565</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Value for a nodereference autocomplete element.</p>
+<p class="description"><p>Substitute in the node title for the node nid.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_autocomplete_value
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$element</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$edit</span> = <span class="var-default">FALSE</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$element</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$edit</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionnodereference_buttons_process" id="functionnodereference_buttons_process"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">nodereference_buttons_process</span> (line <span class="line-number">618</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Process an individual element.</p>
+<p class="description"><p>Build the form element. When creating a form using FAPI #process,  note that $element['#value'] is already set.</p><p>The $fields array is in $form['#field_info'][$element['#field_name']].</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_buttons_process
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$element</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$edit</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$form_state</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$form</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$element</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$edit</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$form_state</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$form</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionnodereference_content_is_empty" id="functionnodereference_content_is_empty"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">nodereference_content_is_empty</span> (line <span class="line-number">280</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_content_is_empty().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_content_is_empty
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$item</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$field</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$item</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$field</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionnodereference_ctools_plugin_directory" id="functionnodereference_ctools_plugin_directory"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">nodereference_ctools_plugin_directory</span> (line <span class="line-number">58</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementaion of hook_ctools_plugin_directory().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_ctools_plugin_directory
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$module</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$plugin</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$module</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$plugin</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionnodereference_elements" id="functionnodereference_elements"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">nodereference_elements</span> (line <span class="line-number">442</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of FAPI hook_elements().</p>
+<p class="description"><p>Any FAPI callbacks needed for individual widgets can be declared here,  and the element will be passed to those callbacks for processing.</p><p>Drupal will automatically theme the element using a theme with  the same name as the hook_elements key.</p><p>Autocomplete_path is not used by text_widget but other widgets can use it  (see nodereference and userreference).</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_elements
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functionnodereference_field" id="functionnodereference_field"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">nodereference_field</span> (line <span class="line-number">184</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_field().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_field
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$op</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$node</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$field</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$items</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$teaser</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$page</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$op</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$node</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$field</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$items</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$teaser</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$page</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionnodereference_field_formatter_info" id="functionnodereference_field_formatter_info"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">nodereference_field_formatter_info</span> (line <span class="line-number">290</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_field_formatter_info().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_field_formatter_info
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functionnodereference_field_info" id="functionnodereference_field_info"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">nodereference_field_info</span> (line <span class="line-number">67</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_field_info().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_field_info
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functionnodereference_field_settings" id="functionnodereference_field_settings"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">nodereference_field_settings</span> (line <span class="line-number">80</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_field_settings().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_field_settings
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$op</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$field</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$op</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$field</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionnodereference_menu" id="functionnodereference_menu"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">nodereference_menu</span> (line <span class="line-number">12</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_menu().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_menu
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functionnodereference_node_type" id="functionnodereference_node_type"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">nodereference_node_type</span> (line <span class="line-number">986</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_node_types.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_node_type
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$op</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$info</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$op</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$info</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionnodereference_optionwidgets_validate" id="functionnodereference_optionwidgets_validate"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">nodereference_optionwidgets_validate</span> (line <span class="line-number">699</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Validate a select/buttons element.</p>
+<p class="description"><p>Remove the wrapper layer and set the right element's value.  We don't know exactly where this element is, so we drill down  through the element until we get to our key.</p><p>We use $form_state['values'] instead of $element['#value']  to be sure we have the most accurate value when other modules  like optionwidgets are using #element_validate to alter the value.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_optionwidgets_validate
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$element</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$form_state</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$element</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$form_state</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionnodereference_preprocess_node" id="functionnodereference_preprocess_node"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">nodereference_preprocess_node</span> (line <span class="line-number">1020</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Theme preprocess function.</p>
+<p class="description"><p>Allows specific node templates for nodes displayed as values of a  nodereference field with the 'full node' / 'teaser' formatters.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_preprocess_node
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$vars</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$vars</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionnodereference_select_process" id="functionnodereference_select_process"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">nodereference_select_process</span> (line <span class="line-number">584</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Process an individual element.</p>
+<p class="description"><p>Build the form element. When creating a form using FAPI #process,  note that $element['#value'] is already set.</p><p>The $fields array is in $form['#field_info'][$element['#field_name']].</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_select_process
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$element</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$edit</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$form_state</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$form</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$element</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$edit</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$form_state</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$form</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionnodereference_theme" id="functionnodereference_theme"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">nodereference_theme</span> (line <span class="line-number">27</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_theme().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_theme
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functionnodereference_widget" id="functionnodereference_widget"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">nodereference_widget</span> (line <span class="line-number">533</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_widget().</p>
+<p class="description"><p>Attach a single form element to the form. It will be built out and  validated in the callback(s) listed in hook_elements. We build it  out in the callbacks rather than here in hook_widget so it can be  plugged into any module that can provide it with valid  $field information.</p><p>Content module will set the weight, field name and delta values  for each form element. This is a change from earlier CCK versions  where the widget managed its own multiple values.</p><p>If there are multiple values for this field, the content module will  call this function as many times as needed.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> form item for a single element for this field</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">the</span>
+		<span class="method-name">
+			nodereference_widget
+		</span>
+					(<span class="var-type">$form</span>&nbsp;<span class="var-name">&$form</span>, <span class="var-type">$form_state</span>&nbsp;<span class="var-name">&$form_state</span>, <span class="var-type">$field</span>&nbsp;<span class="var-name">$field</span>, <span class="var-type">$items</span>&nbsp;<span class="var-name">$items</span>, [<span class="var-type">$delta</span>&nbsp;<span class="var-name">$delta</span> = <span class="var-default">0</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$form</span>
+				<span class="var-name">&$form</span><span class="var-description">: the entire form array, $form['#node'] holds node information</span>			</li>
+					<li>
+				<span class="var-type">$form_state</span>
+				<span class="var-name">&$form_state</span><span class="var-description">: the form_state, $form_state['values'][$field['field_name']]    holds the field's form values.</span>			</li>
+					<li>
+				<span class="var-type">$field</span>
+				<span class="var-name">$field</span><span class="var-description">: the field array</span>			</li>
+					<li>
+				<span class="var-type">$items</span>
+				<span class="var-name">$items</span><span class="var-description">: array of default values for this field</span>			</li>
+					<li>
+				<span class="var-type">$delta</span>
+				<span class="var-name">$delta</span><span class="var-description">: the order of this item in the array of subelements (0, 1, 2, etc)</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionnodereference_widget_info" id="functionnodereference_widget_info"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">nodereference_widget_info</span> (line <span class="line-number">401</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_widget_info().</p>
+<p class="description"><p>We need custom handling of multiple values for the nodereference_select  widget because we need to combine them into a options list rather  than display multiple elements.</p><p>We will use the content module's default handling for default value.</p><p>Callbacks can be omitted if default handing is used.  They're included here just so this module can be used  as an example for custom modules that might do things  differently.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_widget_info
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functionnodereference_widget_settings" id="functionnodereference_widget_settings"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">nodereference_widget_settings</span> (line <span class="line-number">466</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_widget_settings().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			nodereference_widget_settings
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$op</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$widget</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$op</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$widget</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functiontheme_nodereference_autocomplete" id="functiontheme_nodereference_autocomplete"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">theme_nodereference_autocomplete</span> (line <span class="line-number">1052</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			theme_nodereference_autocomplete
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$element</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$element</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functiontheme_nodereference_buttons" id="functiontheme_nodereference_buttons"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">theme_nodereference_buttons</span> (line <span class="line-number">1048</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			theme_nodereference_buttons
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$element</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$element</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functiontheme_nodereference_formatter_default" id="functiontheme_nodereference_formatter_default"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">theme_nodereference_formatter_default</span> (line <span class="line-number">318</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Theme function for 'default' nodereference field formatter.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			theme_nodereference_formatter_default
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$element</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$element</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functiontheme_nodereference_formatter_full_teaser" id="functiontheme_nodereference_formatter_full_teaser"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">theme_nodereference_formatter_full_teaser</span> (line <span class="line-number">346</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Proxy theme function for 'full' and 'teaser' nodereference field formatters.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			theme_nodereference_formatter_full_teaser
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$element</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$element</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functiontheme_nodereference_formatter_plain" id="functiontheme_nodereference_formatter_plain"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">theme_nodereference_formatter_plain</span> (line <span class="line-number">332</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Theme function for 'plain' nodereference field formatter.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			theme_nodereference_formatter_plain
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$element</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$element</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functiontheme_nodereference_select" id="functiontheme_nodereference_select"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">theme_nodereference_select</span> (line <span class="line-number">1044</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">FAPI theme for an individual elements.</p>
+<p class="description"><p>The textfield or select is already rendered by the  textfield or select themes and the html output  lives in $element['#children']. Override this theme to  make custom changes to the output.</p><p>$element['#field_name'] contains the field name  $element['#delta]  is the position of this element in the group</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			theme_nodereference_select
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$element</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$element</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="function_nodereference_potential_references" id="function_nodereference_potential_references"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">_nodereference_potential_references</span> (line <span class="line-number">804</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Fetch an array of all candidate referenced nodes.</p>
+<p class="description"><p>This info is used in various places (allowed values, autocomplete results,  input validation...). Some of them only need the nids, others nid + titles,  others yet nid + titles + rendered row (for display in widgets).  The array we return contains all the potentially needed information, and lets  consumers use the parts they actually need.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> array of valid nodes in the form:    array(      nid =&gt; array(        'title' =&gt; The node title,        'rendered' =&gt; The text to display in widgets (can be HTML)      ),      ...    )</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">An</span>
+		<span class="method-name">
+			_nodereference_potential_references
+		</span>
+					(<span class="var-type">$field</span>&nbsp;<span class="var-name">$field</span>, [<span class="var-type">$string</span>&nbsp;<span class="var-name">$string</span> = <span class="var-default">&#039;&#039;</span>], [<span class="var-type">$match</span>&nbsp;<span class="var-name">$match</span> = <span class="var-default">&#039;contains&#039;</span>], [<span class="var-type">$ids</span>&nbsp;<span class="var-name">$ids</span> = <span class="var-default">array()</span>], [<span class="var-type">$limit</span>&nbsp;<span class="var-name">$limit</span> = <span class="var-default">NULL</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$field</span>
+				<span class="var-name">$field</span><span class="var-description">: The field description.</span>			</li>
+					<li>
+				<span class="var-type">$string</span>
+				<span class="var-name">$string</span><span class="var-description">: Optional string to filter titles on (used by autocomplete).</span>			</li>
+					<li>
+				<span class="var-type">$match</span>
+				<span class="var-name">$match</span><span class="var-description">: Operator to match filtered name against, can be any of:    'contains', 'equals', 'starts_with'</span>			</li>
+					<li>
+				<span class="var-type">$ids</span>
+				<span class="var-name">$ids</span><span class="var-description">: Optional node ids to lookup (the $string and $match arguments will be    ignored).</span>			</li>
+					<li>
+				<span class="var-type">$limit</span>
+				<span class="var-name">$limit</span><span class="var-description">: If non-zero, limit the size of the result set.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="function_nodereference_potential_references_standard" id="function_nodereference_potential_references_standard"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">_nodereference_potential_references_standard</span> (line <span class="line-number">909</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Helper function for _nodereference_potential_references():  referenceable nodes defined by content types.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_nodereference_potential_references_standard
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$field</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$string</span> = <span class="var-default">&#039;&#039;</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$match</span> = <span class="var-default">&#039;contains&#039;</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$ids</span> = <span class="var-default">array()</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$limit</span> = <span class="var-default">NULL</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$field</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$string</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$match</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$ids</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$limit</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="function_nodereference_potential_references_views" id="function_nodereference_potential_references_views"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">_nodereference_potential_references_views</span> (line <span class="line-number">831</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Helper function for _nodereference_potential_references():  case of Views-defined referenceable nodes.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_nodereference_potential_references_views
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$field</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$string</span> = <span class="var-default">&#039;&#039;</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$match</span> = <span class="var-default">&#039;contains&#039;</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$ids</span> = <span class="var-default">array()</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$limit</span> = <span class="var-default">NULL</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$field</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$string</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$match</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$ids</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$limit</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="function_nodereference_titles" id="function_nodereference_titles"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">_nodereference_titles</span> (line <span class="line-number">378</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Helper function for formatters.</p>
+<p class="description"><p>Store node titles collected in the curent request.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_nodereference_titles
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$nid</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$known_title</span> = <span class="var-default">NULL</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$nid</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$known_title</span>			</li>
+				</ul>
+		
+	
+</div>
+		</div>
+	</div>
+	
+	<p class="notes" id="credit">
+		Documentation generated on Fri, 10 Feb 2012 11:17:53 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.4</a>
+	</p>
+	</div></body>
+</html>

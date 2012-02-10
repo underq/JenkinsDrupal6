@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs for page content_copy.module</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="file-name">/cck/modules/content_copy/content_copy.module</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-functions">Functions</a>
+			</div>
+	<div class="info-box-body">	
+		<!-- ========== Info from phpDoc block ========= -->
+		
+			</div>
+</div>
+		
+
+	
+	
+	
+	<a name="sec-functions"></a>	
+	<div class="info-box">
+		<div class="info-box-title">Functions</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<span class="disabled">Functions</span>
+		</div>
+		<div class="info-box-body">	
+			<a name="functioncontent_copy_export" id="functioncontent_copy_export"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_copy_export</span> (line <span class="line-number">210</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Process the export, get field admin forms for all requested fields    and save the form values as formatted text.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_copy_export
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$form_values</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$form_values</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_copy_export_form" id="functioncontent_copy_export_form"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_copy_export_form</span> (line <span class="line-number">71</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">A form to export field definitions.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_copy_export_form
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$form_state</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$form_state</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_copy_export_form_submit" id="functioncontent_copy_export_form_submit"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_copy_export_form_submit</span> (line <span class="line-number">200</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_copy_export_form_submit
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$form</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$form_state</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$form</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$form_state</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_copy_fields" id="functioncontent_copy_fields"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_copy_fields</span> (line <span class="line-number">513</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get all the *active* fields for a content type.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_copy_fields
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$type_name</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$type_name</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_copy_form_alter" id="functioncontent_copy_form_alter"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_copy_form_alter</span> (line <span class="line-number">503</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_form_alter().</p>
+<p class="description"><p>Intervene to run form through macro when doing export</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_copy_form_alter
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$form</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$form_state</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$form_id</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$form</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$form_state</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$form_id</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_copy_get_macro" id="functioncontent_copy_get_macro"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_copy_get_macro</span> (line <span class="line-number">612</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">return:</span> code representation of the recorded macro.</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">a</span>
+		<span class="method-name">
+			content_copy_get_macro
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functioncontent_copy_import_form" id="functioncontent_copy_import_form"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_copy_import_form</span> (line <span class="line-number">296</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">A form to import formatted text created with export.</p>
+<p class="description"><p>The macro can be filled from a file, if provided.  Provide a type_name to force the fields to be added to a specific  type, or leave out type_name to create a new content type.</p><p>Example:  // If Content Copy is enabled, offer an import link.  if (module_exists('content_copy')) {    $form['macro'] = array(      '#type' =&gt; 'fieldset',      '#title' =&gt; t('Create a content type'),      '#description' =&gt; t('Follow this link to create automatically a content type and import preconfigured fields.'),      '#collapsible' =&gt; TRUE,      '#collapsed' =&gt; FALSE,    );    $form['macro']['link'] = array(      '#type' =&gt; 'markup',      '#value' =&gt; l(t('import'), 'admin/content/types/import', array(), 'type_name=event&amp;macro_file='. drupal_get_path('module', 'my_module') .'/my_content_type.txt'),    );  }</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_copy_import_form
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$form_state</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$type_name</span> = <span class="var-default">&#039;&#039;</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$form_state</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$type_name</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_copy_import_form_submit" id="functioncontent_copy_import_form_submit"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_copy_import_form_submit</span> (line <span class="line-number">336</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Submit handler for import form.</p>
+<p class="description"><p>For each submitted field:      1) add new field to the database      2) execute the imported field macro to update the settings to the imported values</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_copy_import_form_submit
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$form</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$form_state</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$form</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$form_state</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_copy_menu" id="functioncontent_copy_menu"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_copy_menu</span> (line <span class="line-number">34</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_menu().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_copy_menu
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functioncontent_copy_record_macro" id="functioncontent_copy_record_macro"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_copy_record_macro</span> (line <span class="line-number">549</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">A handler that stores the form submissions into a $GLOBALS array</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_copy_record_macro
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$form</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$form_state</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$form</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$form_state</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functioncontent_copy_theme" id="functioncontent_copy_theme"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">content_copy_theme</span> (line <span class="line-number">59</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Implementation of hook_theme().</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_copy_theme
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functioncontent_copy_types" id="functioncontent_copy_types"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">content_copy_types</span> (line <span class="line-number">537</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get all content types.</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			content_copy_types
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functiontemplate_preprocess_content_copy_export_form" id="functiontemplate_preprocess_content_copy_export_form"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">template_preprocess_content_copy_export_form</span> (line <span class="line-number">623</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			template_preprocess_content_copy_export_form
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$vars</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$vars</span>			</li>
+				</ul>
+		
+	
+</div>
+		</div>
+	</div>
+	
+	<p class="notes" id="credit">
+		Documentation generated on Fri, 10 Feb 2012 11:17:52 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.4</a>
+	</p>
+	</div></body>
+</html>
