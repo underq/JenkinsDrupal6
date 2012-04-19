@@ -7,6 +7,11 @@ I try to do CI with Drupal & Jenkins
 Installation
 ============
 
+* wget -q -O http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+* sudo apt-get install jenkins
+* sudo apt-get install php5
+* sudo apt-get install php-pear
+
 Step 1 :
 --------
 Install Jenkins on your OS.
