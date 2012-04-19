@@ -7,10 +7,27 @@ I try to do CI with Drupal & Jenkins
 Installation
 ============
 
-* wget -q -O http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
-* sudo apt-get install jenkins
-* sudo apt-get install php5
-* sudo apt-get install php-pear
+__Installation de Jenkins__
+>* wget -q -O http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+>* echo "\nhttp://pkg.jenkins-ci.org/debian binary/" | tee -a /etc/apt/sources.list 
+>* sudo apt-get install jenkins
+
+__Installation de PHP & PEAR__
+>* sudo apt-get install php5
+>* sudo apt-get install php-pear
+>* sudo pear upgrade-all
+
+__Installation de drush__
+>* sudo pear channel-discover pear.drush.org
+>* sudo pear install drush/drush
+>* sudo pear upgrade --force Console_Getopt
+>* sudo drush --version
+
+__Recuperation du Jenkins-cli.jar pour l'utilisation en ligne de commande__
+>* wget http://localhost:8080/jnlpJars/jenkins-cli.jar
+
+__Installation des plugins Jenkins__
+>* java -jar jenkins-cli.jar -s http://localhost:8080 install-plugin checkstyle
 
 Step 1 :
 --------
