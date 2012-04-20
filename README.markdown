@@ -3,10 +3,6 @@ DrupalSample
 
 I try to do CI with Drupal & Jenkins
 
-
-Installation
-============
-
 Step 1: Installation
 --------------------
 
@@ -15,11 +11,14 @@ __Installation de Jenkins__
 >* echo "\nhttp://pkg.jenkins-ci.org/debian binary/" | tee -a /etc/apt/sources.list 
 >* sudo apt-get install jenkins
 
-__Installation de GIT__
+__Installation de GIT & Ant__
 >* sudo apt-get install git-core
+>* sudo apt-get install ant
 
-__Installation de PHP & PEAR__
+__Installation de PHP/Mysql & PEAR__
 >* sudo apt-get install php5
+>* sudo apt-get install php5-mysql
+>* sudo apt-get install mysql
 >* sudo apt-get install php-pear
 >* sudo pear upgrade-all
 
@@ -44,6 +43,13 @@ __Installation des plugins Jenkins__
 
 Step 2: Configuration 
 ---------------------
+
+__Architecture__
+>* _/var/lib/jenkins_ Répertoire home de l'utilisateur jenkins 
+>* _/var/lib/jenkins/jobs_ Répertoire ou se trouve les differents jobs
+>* _/var/lib/jenkins/jobs/${ITEM_ROOTDIR}/_ Répertoire d'un personelle du job : config.xml, build.xml, ... 
+>* _/var/lib/jenkins/jobs/${ITEM_ROOTDIR}/workspace_ espace de travail d'un job, fichier source clone avec GIT
+>* _/var/lib/jenkins/jobs/${ITEM_ROOTDIR}/builds_ Regroupe l'ensemble des builds d'un job 
 
 __GIT__
 >* Générer une cle ssh pour l'utilisateur jenkins
