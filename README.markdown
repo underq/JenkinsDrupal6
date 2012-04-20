@@ -7,10 +7,16 @@ I try to do CI with Drupal & Jenkins
 Installation
 ============
 
+Step 1: Installation
+--------------------
+
 __Installation de Jenkins__
 >* wget -q -O http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
 >* echo "\nhttp://pkg.jenkins-ci.org/debian binary/" | tee -a /etc/apt/sources.list 
 >* sudo apt-get install jenkins
+
+__Installation de GIT__
+>* sudo apt-get install git-core
 
 __Installation de PHP & PEAR__
 >* sudo apt-get install php5
@@ -27,16 +33,23 @@ __Recuperation du Jenkins-cli.jar pour l'utilisation en ligne de commande__
 >* wget http://localhost:8080/jnlpJars/jenkins-cli.jar
 
 __Installation des plugins Jenkins__
->* java -jar jenkins-cli.jar -s http://localhost:8080 install-plugin checkstyle
+>* sudo java -jar jenkins-cli.jar -s http://localhost:8080 install-plugin checkstyle
+>* sudo java -jar jenkins-cli.jar -s http://localhost:8080 install-plugin ci-game
+>* sudo java -jar jenkins-cli.jar -s http://localhost:8080 install-plugin dry
+>* sudo java -jar jenkins-cli.jar -s http://localhost:8080 install-plugin pmd
+>* sudo java -jar jenkins-cli.jar -s http://localhost:8080 install-plugin git
+>* sudo java -jar jenkins-cli.jar -s http://localhost:8080 safe-restart
 
-Step 1 :
---------
-Install Jenkins on your OS.
-http://aaronbonner.tumblr.com/post/8339092868/installing-jenkins-on-ubuntu
 
-Step 2 :
---------
-Install PEAR & Mise Ã  jour de la derniere version (pear upgrade-all)
+
+Step 2: Configuration 
+---------------------
+
+__GIT__
+>* Générer une cle ssh pour l'utilisateur jenkins
+>* ssh-keygen -t rsa -C "your_email@youremail.com"
+>* L'ajouter au _authorized_keys_ du server GIT
+>* ssh UserGIT@IpServerGIT "echo $(cat ~/.ssh/id_rsa.pub) >> .ssh/authorized_keys"
 
 Step 3 :
 --------
